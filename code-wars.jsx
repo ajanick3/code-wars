@@ -1,3 +1,6 @@
+// -------------------- \\
+// Directions Reduction \\
+// -------------------- \\
 function dirReduc(initialDirections) {
   let length
   let directions = initialDirections
@@ -8,6 +11,9 @@ function dirReduc(initialDirections) {
   return directions
 }
 
+// ------------------------- \\
+// Directions Reducer Helper \\
+// ------------------------- \\
 function dirReducHelper(directions) {
   const [first, next, ...rest] = directions
   if (!first || !next) {
